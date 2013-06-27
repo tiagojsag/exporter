@@ -13,12 +13,12 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "symfony/property-access": ">=2.2, <3.0.0-dev"
     },
     "require-dev": {
         "php": ">=5.3.0",
-        "symfony/routing": "*",
-        "symfony/property-access": ">=2.2, <3.0.0-dev"
+        "symfony/routing": "*"
     },
     "suggest": {
         "ext-curl": "*",
